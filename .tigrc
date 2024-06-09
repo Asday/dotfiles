@@ -1,0 +1,5 @@
+set start-on-head = true
+bind refs p !git push
+bind refs P !git push -u origin HEAD
+bind refs F !git fetch
+bind refs M !git merge %(refname)
